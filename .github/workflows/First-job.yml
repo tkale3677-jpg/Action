@@ -1,0 +1,14 @@
+name: GITHUN Action
+on:
+
+   
+  workflow_dispatch:
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - name: Run a github action
+        run: echo Hello, GITHUB ACTION!
+
+     
