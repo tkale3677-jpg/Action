@@ -9,6 +9,6 @@ jobs:
     steps:
       
       - name: Run a github action
-        run: echo Hello, GITHUB ACTION!
+        run: echo Hello, GITHUB ACTION !
 
      
